@@ -10,12 +10,11 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
 requirements = [
-	'beautifulsoup4',
-	'lxml',
+    'beautifulsoup4',
+    'lxml',
 ]
 
-test_requirements = [
-]
+test_requirements = []
 
 setup(
     name='google-search',
@@ -28,8 +27,7 @@ setup(
     packages=[
         'googlesearch',
     ],
-    package_dir={'googlesearch':
-                 'googlesearch'},
+    package_dir={'googlesearch': 'googlesearch'},
     include_package_data=True,
     install_requires=requirements,
     license="MIT license",
