@@ -1,0 +1,13 @@
+setuptools~=49.2.0
+requests~=2.24.0
+bs4~=0.0.1
+beautifulsoup4~=4.9.1
+numpy~=1.19.0
+pdf2image~=1.13.1
+pytesseract~=0.3.4
+PyYAML~=5.3.1
+cryptography~=3.0
+
+pandas~=1.0.5
+
+Pillow~=7.2.0
